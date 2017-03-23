@@ -1,0 +1,171 @@
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: bebas;
+ src: url("BEBAS___.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: bebas;
+ src: url("BEBAS___.ttf") /* TTF file for CSS3 browsers */
+}
+.logo h1{
+	font-family: pacifico;
+}
+.menu ul li{
+	display: inline-block;
+    box-sizing: border-box;
+  	padding: 15px 20px;
+    font-family: bebas;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.menu ul li:last-child{
+	/*padding-right: 0px;*/
+}
+.menu ul li span{
+	display: block;
+	color: grey;
+
+}
+.slider img{
+	width: 100%;
+}
+.slider_title{
+	position: absolute;
+    bottom: 0;
+    background: #404040;
+    padding: 5px 10px;
+}
+.slider_title h4{
+	color: #7A7A7A;
+    text-transform: uppercase;
+    font-family: bebas;
+    font-size: 21px;
+    font-weight: bold;
+}
+.slider_title h1{
+	color: white;
+    font-size: 31px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: bebas;
+}
+.slider_text{
+	margin-bottom: 40px;
+}
+.slider_t{
+	background: #F7F7F7;
+	    height: 100px;
+}
+.slider_t h4{
+	text-transform: uppercase;
+    font-family: bebas;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+.slider_t h4,p{
+	margin-left: 15px;
+	padding: 10px 10px;
+}
+.service {
+	
+}
+.service_title{
+	overflow: hidden;
+
+}
+.service_title img{
+	float: left;
+	width: 10%;
+	text-align: center;
+	margin: 20px 10px;
+}
+.service_title h1{
+	width: 83%;
+	float: right;
+	font-size: 28px;
+	font-family: bebas;
+}
+.service_text{
+
+}
+.service_text p{
+	text-align: justify;
+	font-family: bebas;
+	margin-left: -10px;
+
+}
+.service_action{
+
+}
+img{
+	width: 100%;
+}
+.slider_text{
+	position: relative;
+}
+.indicator{
+	position: absolute;
+	    left: 50%;
+    top: -17px;
+}
+.works{
+	position: relative;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.work_title h1{
+	position: absolute;
+    top: -56px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0px 25px;
+    font-weight: bold;
+    font-family: bebas;
+    font-size: 33px;
+}
+.work_text h1{
+	font-size: 26px;
+    font-weight: bold;
+    font-family: bebas;
+}
+.work_text p{
+	margin-left: 0;
+    padding-left: 0;
+    text-align: justify;
+}
+.work_action span{
+	font-family: bebas;
+	font-weight: bolder;
+}
+.footer{
+	background: #F8F8F8;
+	overflow: hidden;
+	margin-top: 40px;
+	height: 50px;
+}
+.footer span{
+	font-weight: bold;
+}
+.footer_left{
+	float: left;
+	width: 50%;
+}
+.footer_right{
+	float: right;
+	width: 20%;
+}
+.service_action span{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: bebas;
+}
